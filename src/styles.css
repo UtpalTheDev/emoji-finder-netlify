@@ -3,6 +3,22 @@
   text-align: center;
 }
 .list {
+  display: inline-block;
   padding: 0.5rem;
   cursor: pointer;
+  font-size: 30px;
+}
+.header {
+  font-size: 30px;
+}
+.input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  padding: 5px 5px 5px 5px;
+}
+.meaning {
+  height: 20px;
 }

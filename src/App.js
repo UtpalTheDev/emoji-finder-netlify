@@ -20,9 +20,9 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Emoji Finder</h1>
-      <input onChange={inputhandler}></input>
-      <div>{text}</div>
+      <div className="header">Emoji Finder</div>
+      <input className="input" onChange={inputhandler}></input>
+      <div className="meaning">{text}</div>
       <div>
         {emojistock.map(function (item) {
           return (
